@@ -1,0 +1,65 @@
+:root {
+    --main-bg-color: teal;
+    --main-font-color: white;
+    --main-form-color: orange;
+    --main-submit-color: green;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--main-bg-color);
+    color: var(--main-font-color);
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+}
+
+#survey-form {
+    margin: 3rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.form-container {
+    background: var(--main-form-color);
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+label {
+    display: inline-block;
+}
+
+.inputsize {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.question {
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+#submit {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-submit-color);
+    color: var(--main-font-color);
+  
+}
+
+
+
+
+
